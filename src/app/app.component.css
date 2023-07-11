@@ -1,0 +1,271 @@
+.container {
+  width: 320px;
+  margin: auto;
+  font-family: "DMS";
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.tab {
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  padding: 4% 4% 4% 4%;
+  border-radius: 10px;
+  margin-top: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-heading {
+  font-size: 12px;
+  margin-bottom: 10%;
+}
+
+.tab-price {
+  font-weight: 600;
+}
+
+.graph-container {
+  background-color: hsl(33, 100%, 98%);
+  padding: 5% 8% 10% 8%;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+.spending {
+  font-weight: 600;
+}
+
+.logo {
+  width: 50px;
+}
+
+.graph {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.graph-shape {
+  width: 30px;
+  border-radius: 4px;
+  background-color: hsl(10, 79%, 65%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.days {
+  font-size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  color: hsl(28, 10%, 53%);
+}
+
+.bar {
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.price {
+  background-color: hsl(25, 47%, 15%);
+  color: white;
+  font-size: 11px;
+  margin-bottom: 5px;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+}
+
+.mon {
+  height: 35px;
+}
+
+.mob-mon {
+  height: 60px;
+}
+
+.tue {
+  height: 65px;
+}
+
+.mob-tue {
+  height: 120px;
+}
+
+.wed {
+  height: 90px;
+}
+
+.mob-wed {
+  height: 180px;
+}
+
+.thu {
+  height: 60px;
+}
+
+.mob-thu {
+  height: 100px;
+}
+
+.fri {
+  height: 45px;
+}
+
+.mob-fri {
+  height: 80px;
+}
+
+.sat {
+  height: 80px;
+}
+
+.mob-sat {
+  height: 150px;
+}
+
+.sun {
+  height: 50px;
+}
+
+.mob-sun {
+  height: 90px;
+}
+
+.bar:hover .price {
+  visibility: visible;
+}
+
+.bar:hover .graph-shape {
+  opacity: 0.5;
+}
+
+.break {
+  width: 100%;
+  border: 1px solid hsl(27, 66%, 92%);
+  margin: 20px 0px 20px 0px;
+}
+
+.total {
+  font-size: 12px;
+  color: hsl(28, 10%, 53%);
+}
+
+.total-price {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.last-month-percent {
+  width: 100%;
+}
+
+.percent {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.last-month {
+  margin-left: auto;
+  font-size: 12px;
+  color: hsl(28, 10%, 53%);
+}
+
+.mob-container {
+  width: 94vw;
+  padding: 15% 3% 0% 3%;
+}
+
+.mob-tab {
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  padding: 4% 4% 4% 4%;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  height: fit-content;
+}
+
+.mob-tab-price {
+  font-size: 25px;
+}
+
+.mob-tab-heading {
+  font-size: 15px;
+  margin-bottom: 10%;
+  font-family: sans-serif;
+}
+
+.mob-graph-container {
+  padding: 4% 4% 10% 4%;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 10px;
+  margin-top: 7%;
+}
+
+.mob-spending {
+  font-size: 160%;
+}
+
+.mob-graph-shape {
+  width: 100%;
+  border-radius: 4px;
+  background-color: hsl(10, 79%, 65%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cyan {
+  background-color: hsl(186, 34%, 60%);
+}
+
+.mob-days {
+  font-size: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  color: hsl(28, 10%, 53%);
+}
+
+.mob-graph {
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.mob-break {
+  width: 100%;
+  border: 1px solid hsl(27, 66%, 92%);
+  margin: 8% 0% 8% 0%;
+}
+
+.mob-total {
+  font-size: 110%;
+  color: hsl(28, 10%, 53%);
+}
+
+.mob-total-price {
+  font-size: 220%;
+  font-weight: 900;
+}
+
+.mob-percent {
+  font-size: 110%;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+.mob-last-month {
+  margin-left: auto;
+  font-size: 110%;
+  color: hsl(28, 10%, 53%);
+}

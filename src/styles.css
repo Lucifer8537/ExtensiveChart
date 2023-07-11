@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "DMS";
+  src: url("../src/fonts/DMSans-Regular.ttf"),
+    url("../src/fonts/DMSans-Bold.ttf"),
+    url("../src/fonts/DMSans-BoldItalic.ttf"),
+    url("../src/fonts/DMSans-Italic.ttf"), url("../src/fonts/DMSans-Medium.ttf"),
+    url("../src/fonts/DMSans-MediumItalic.ttf");
+}
+
+body {
+  padding: 0;
+  background-color: hsl(27, 66%, 92%);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-size: 18px;
+}

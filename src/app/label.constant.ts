@@ -1,0 +1,16 @@
+export const LABEL = {
+  MY_BALANCE: 'My balance',
+  TAB_PRICE: '$921.48',
+  SPENDING: 'Spending - Last 7 days',
+  MON: 'mon',
+  TUE: 'tue',
+  WED: 'wed',
+  THU: 'thu',
+  FRI: 'fri',
+  SAT: 'sat',
+  SUN: 'sun',
+  TOTAL_THIS_MONTH: 'Total this month',
+  TOTAL: '$478.33',
+  PERCENT: '+2.4%',
+  LAST_MONTH: 'from last month',
+};
